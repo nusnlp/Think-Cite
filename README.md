@@ -2,10 +2,9 @@
 
 This is the repo for our paper: [Think&Cite: Improving Attributed Text Generation with Self-Guided Tree Search and Progress Reward Modeling]([https://arxiv.org/abs/2305.11747](https://arxiv.org/pdf/2412.14860)). The repo contains:
 
-- The [35K data](#data-release) used for evaluating the LLM.
-- The code for [generating the data](#data-generation-process).
-- The code for [evaluating the model](#evaluation).
-- The code for [analyzing the model](#analysis).
+- The [data and model](#required-data-and-models) used in our work.
+- The code for [model inference](#inference-and-evaluation).
+- The code for [model evaluation](#inference-and-evaluation).
 
 ## Overview
 
@@ -31,4 +30,18 @@ You can also run the following bash file in /mcts directory for evaluation:
 
 ```
 bash run_eval.bash
+```
+
+# Citation
+
+Please cite the repo if you use the data or code in this repo.
+
+```
+@inproceedings{Think-Cite,
+  author = {Junyi Li and Hwee Tou Ng},
+  title = {Think&Cite: Improving Attributed Text Generation with Self-Guided Tree Search and Progress Reward Modeling},
+  year = {2025},
+  booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational
+                  Linguistics, {ACL} 2025, 2025},
+}
 ```
