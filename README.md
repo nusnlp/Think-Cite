@@ -12,6 +12,8 @@ Existing approaches to attributed text generation adopt an auto-regressive gener
 
 In this paper, we propose Think&Cite, a novel framework integrating search algorithms into attributed text generation. We conceptualize the generation task as a multi-step reasoning problem, where the model generates a sentence in each step through an iterative think-verbalize-cite paradigm. To enhance this generation process, we propose Self-Guided Monte Carlo Tree Search (SG-MCTS), which extends the classic MCTS with two innovations. First, our approach leverages the self-reflection capability of LLMs to reflect on the intermediate states of MCTS in real time, so as to guide the tree expansion process and proactively avoid inadequate reasoning paths.  Second, we propose Progress Reward Models (PRM) to measure the progress of tree search from the root to the current state from two aspects, i.e., generation progress and attribution progress.
 
+<a href="https://github.com/nusnlp/Think-Cite" target="_blank"><img src="assets/model.png" alt="Think-Cite" style="width: 90%; min-width: 300px; display: block; margin: auto;"></a>
+
 # Required Data and Models 
 
 We utilize the ALCE evaluation benchmark proposed in EMNLP 2023, which can be download from this [repository](https://github.com/princeton-nlp/ALCE). We also adopt the GTR retriever and passage embeddings from the repository. 
