@@ -41,7 +41,6 @@ Please cite the repo if you use the data or code in this repo.
   author = {Junyi Li and Hwee Tou Ng},
   title = {Think&Cite: Improving Attributed Text Generation with Self-Guided Tree Search and Progress Reward Modeling},
   year = {2025},
-  booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational
-                  Linguistics, {ACL} 2025, 2025},
+  booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics, {ACL} 2025, 2025},
 }
 ```
