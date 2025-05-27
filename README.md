@@ -1,6 +1,6 @@
 # Think&Cite
 
-This is the repo for our paper: [Think&Cite: Improving Attributed Text Generation with Self-Guided Tree Search and Progress Reward Modeling]([https://arxiv.org/abs/2305.11747](https://arxiv.org/pdf/2412.14860)). The repo contains:
+This is the repo for our paper: [Think&Cite: Improving Attributed Text Generation with Self-Guided Tree Search and Progress Reward Modeling](https://arxiv.org/pdf/2412.14860). The repo contains:
 
 - The [data and model](#required-data-and-models) used in our work.
 - The code for [model inference](#inference-and-evaluation).
