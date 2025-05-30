@@ -36,7 +36,7 @@ bash run_eval.bash
 
 # Citation
 
-Please cite the repo if you use the data or code in this repo.
+Please cite the following paper if you use the data or code in this repo.
 
 ```
 @inproceedings{Think-Cite,
